@@ -1,3 +1,13 @@
+###        _________________________________
+###        <AUTOMATE WHATSAPP WITH AUTOREPLY >
+###        ---------------------------------
+###                      \   ^__^
+###                        \  (oo)\_______
+###                          (__)\       )\/\/\
+###                              ||----w |
+###                              ||     ||
+
+
 ########### OPEN TERMINAL OR CMD AND TYPE: "pip install selenium" ##########
 
 from selenium import webdriver
