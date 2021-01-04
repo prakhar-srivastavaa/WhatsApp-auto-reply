@@ -33,7 +33,7 @@ for name in names:
         for i in range(1,3):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             
-            ############### OPEN YOUR WHATSAPP IN WEB AND INSPECT FOR LAST MESSAGE AND COPY SELECTABLE PATH ################
+            ############### OPEN YOUR WHATSAPP IN WEB AND INSPECT FOR LAST MESSAGE AND COPY SELECTABLE PATH AND PASTE IN CSS SELLECTOR################
 
         msg_got = driver.find_elements_by_css_selector("span._3Whw5.selectable-text.invisible-space.copyable-text")
         msg =[message.text for message in msg_got]
@@ -43,7 +43,7 @@ for name in names:
         if msg[-1].lower() == msgin.lower():
                 if y.lower() == "monday":
             
-############################## INSPECT THE TYPING BOX AND COPY SELECTOR FROM WHATSAPP WEB ####################
+############################## INSPECT THE TYPING BOX AND COPY SELECTOR FROM WHATSAPP WEB AND PASTE IN CSS SELLECTOR####################
 
                     reply = driver.find_element_by_css_selector("#main > footer > div._3ee1T._1LkpH.copyable-area > div._3uMse > div > div._3FRCZ.copyable-text.selectable-text")
                     reply.clear()
