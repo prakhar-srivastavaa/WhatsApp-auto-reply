@@ -17,7 +17,7 @@ import datetime
 
 ########### #ADD YOUR CHROMEDRIVER.EXE LOCATION ##########
 
-chromedr = r"C:\Users\KIIT\Documents\programming\chromedriver.exe" 
+chromedr = r"C:\chromedriver.exe" 
 driver = webdriver.Chrome(chromedr)
 driver.get("https://web.whatsapp.com/")
 time.sleep(8)
