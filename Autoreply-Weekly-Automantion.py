@@ -9,6 +9,7 @@
 
 
 ########### OPEN TERMINAL OR CMD AND TYPE: "pip install selenium" ##########
+########### Install Python with all checkbox on ##########
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -43,7 +44,7 @@ for name in names:
         if msg[-1].lower() == msgin.lower():
                 if y.lower() == "monday":
             
-############################## INSPECT THE TYPING BOX AND COPY SELECTOR FROM WHATSAPP WEB AND PASTE IN CSS SELLECTOR####################
+############################## INSPECT THE TYPING BOX AND COPY CSS SELECTOR FROM WHATSAPP WEB AND PASTE IN CSS SELLECTOR####################
 
                     reply = driver.find_element_by_css_selector("#main > footer > div._3ee1T._1LkpH.copyable-area > div._3uMse > div > div._3FRCZ.copyable-text.selectable-text")
                     reply.clear()
